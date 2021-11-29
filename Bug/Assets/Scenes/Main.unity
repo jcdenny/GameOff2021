@@ -1533,6 +1533,10 @@ PrefabInstance:
       propertyPath: life3
       value: 
       objectReference: {fileID: 1470803370}
+    - target: {fileID: 6806676846164937694, guid: 63d2426b24f3ae040af89897a72c53c0, type: 3}
+      propertyPath: gameoverCanvas
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 6953085897891461553, guid: 63d2426b24f3ae040af89897a72c53c0, type: 3}
       propertyPath: Loop
       value: 0
@@ -1577,6 +1581,10 @@ PrefabInstance:
       propertyPath: driverPrefab
       value: 
       objectReference: {fileID: 1802417180393743632, guid: 63d2426b24f3ae040af89897a72c53c0, type: 3}
+    - target: {fileID: 7310165423809747719, guid: 63d2426b24f3ae040af89897a72c53c0, type: 3}
+      propertyPath: gameoverCanvas
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 7310165423809747720, guid: 63d2426b24f3ae040af89897a72c53c0, type: 3}
       propertyPath: m_Name
       value: Driver

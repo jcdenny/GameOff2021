@@ -11,6 +11,7 @@ TagManager:
   - RightGlove
   - Bug
   - Score
+  - Road
   layers:
   - Default
   - TransparentFX

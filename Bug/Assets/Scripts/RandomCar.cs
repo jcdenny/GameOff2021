@@ -37,7 +37,6 @@ public class RandomCar : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D other) {
         if(other.gameObject.tag == "Boundary"){
-            //gameManager.AudioPlayExplosion();
             Destroy(gameObject);
         }
         if(other.gameObject.tag == "Driver"){

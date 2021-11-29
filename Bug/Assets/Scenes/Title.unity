@@ -953,6 +953,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextScene: Instructions
+  startingKey: 32
 --- !u!4 &1659595252
 Transform:
   m_ObjectHideFlags: 0

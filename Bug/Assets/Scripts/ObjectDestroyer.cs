@@ -10,7 +10,9 @@ public class ObjectDestroyer : MonoBehaviour
         transform.position = driver.transform.position + new Vector3(0,-20,0);
     }
     private void OnTriggerEnter2D(Collider2D other) {
-        Instantiate(roadPrefab, new Vector3(0,driver.transform.position.y+10,0), Quaternion.identity);
+        if(other.tag == "Road"){
+            Instantiate(roadPrefab, new Vector3(0,driver.transform.position.y+12,0), Quaternion.identity);
+        }
         Destroy(other.gameObject);
     }
 }

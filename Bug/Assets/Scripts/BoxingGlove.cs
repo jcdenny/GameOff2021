@@ -41,6 +41,7 @@ public class BoxingGlove : MonoBehaviour
         collideWithBug = false;
         if(gameManager.GetLives() <= -1){
             SceneManager.LoadScene("GameOver");
+
         }
         if(Input.GetKeyDown("o")){
             leftSpriteRenderer.enabled = true;
