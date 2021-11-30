@@ -158,7 +158,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 120, y: 25}
+  m_AnchoredPosition: {x: 120, y: 30}
   m_SizeDelta: {x: 350, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &23472614
@@ -536,9 +536,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 1127329904}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4256e2834d1c761459dd976ed1291f81, type: 3}
+  m_Script: {fileID: 11500000, guid: 9b41d6829210d9f45b8fd8fabbb97f2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  driverLives: 4
+  lostLifeColor:
+    serializedVersion: 2
+    rgba: 4282664011
+  scoreObject: {fileID: 23472612}
+  explosion: {fileID: 0}
+  crash: {fileID: 0}
 --- !u!1 &1322217996
 GameObject:
   m_ObjectHideFlags: 0
@@ -574,7 +581,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 40, y: 25}
+  m_AnchoredPosition: {x: 40, y: 30}
   m_SizeDelta: {x: 350, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1322217998
@@ -936,7 +943,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 10, y: -60}
+  m_AnchoredPosition: {x: 50, y: -60}
   m_SizeDelta: {x: 400, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1682321069

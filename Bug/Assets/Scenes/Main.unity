@@ -1578,6 +1578,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 7310165423809747719, guid: 63d2426b24f3ae040af89897a72c53c0, type: 3}
+      propertyPath: steerSpeed
+      value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: 7310165423809747719, guid: 63d2426b24f3ae040af89897a72c53c0, type: 3}
       propertyPath: driverPrefab
       value: 
       objectReference: {fileID: 1802417180393743632, guid: 63d2426b24f3ae040af89897a72c53c0, type: 3}

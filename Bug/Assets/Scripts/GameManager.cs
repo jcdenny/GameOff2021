@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 
 public class GameManager : MonoBehaviour
@@ -18,7 +19,14 @@ public class GameManager : MonoBehaviour
     GameObject life2;
     GameObject life3;
     TextMeshProUGUI scoreText;
-private void Awake() {
+  
+    void OnDisable(){
+        PlayerPrefs.SetInt("score", score);
+    }
+    void OnEnable(){
+        score  =  PlayerPrefs.GetInt("score");
+    }
+    private void Awake() {
         life1 = GameObject.Find("Life1");
         life2 = GameObject.Find("Life2");
         life3 = GameObject.Find("Life3");
@@ -48,6 +56,7 @@ private void Awake() {
     }
 
     private void Update() {
+
         scoreText.SetText(score.ToString());
         switch(driverLives){
             case 3:
